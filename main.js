@@ -51,7 +51,7 @@ function draw() {
     for (var i = 1; i <= to_number; i++){
       x = Math.floor(Math.random()* 700)
       y = Math.floor(Math.random()* 400)
-      Image(apple,x,y,50,50)
+      image(apple,x,y,50,50)
     }
     document.getElementById("status").innerHTML = to_number + " Apples drawn";
     draw_apple = "";
